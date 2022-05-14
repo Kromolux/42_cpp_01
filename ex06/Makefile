@@ -6,17 +6,16 @@
 #    By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/13 17:22:31 by rkaufman          #+#    #+#              #
-#    Updated: 2022/05/13 17:23:54 by rkaufman         ###   ########.fr        #
+#    Updated: 2022/05/14 14:14:43 by rkaufman         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-NAME		:=	KarenFilter
+NAME		:=	karenFilter
 
 CC			:=	c++
 
 SRCS		:=	main.cpp \
-				Karen.hpp \
 				Karen.cpp
 
 OBJS		:=	$(SRCS:%.cpp=%.o)

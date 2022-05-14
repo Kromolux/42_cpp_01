@@ -6,7 +6,7 @@
 #    By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/13 16:46:14 by rkaufman          #+#    #+#              #
-#    Updated: 2022/05/13 16:47:31 by rkaufman         ###   ########.fr        #
+#    Updated: 2022/05/14 14:04:01 by rkaufman         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,6 @@ NAME		:=	Karen_2.0
 CC			:=	c++
 
 SRCS		:=	main.cpp \
-				Karen.hpp \
 				Karen.cpp
 
 OBJS		:=	$(SRCS:%.cpp=%.o)

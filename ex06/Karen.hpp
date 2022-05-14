@@ -1,0 +1,36 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Karen.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/05/14 14:11:53 by rkaufman          #+#    #+#             */
+/*   Updated: 2022/05/14 14:15:40 by rkaufman         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#pragma once
+#ifndef KAREN_H
+# define KAREN_H
+# include <iostream>
+
+class Karen
+{
+
+public:
+
+	Karen(void);
+	~Karen(void);
+
+	void	complain(std::string level);
+
+private:
+
+	void	debug(void);
+	void	info(void);
+	void	warning(void);
+	void	error(void);
+};
+
+#endif
