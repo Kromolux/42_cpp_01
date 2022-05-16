@@ -6,7 +6,7 @@
 /*   By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 20:39:47 by rkaufman          #+#    #+#             */
-/*   Updated: 2022/05/13 10:50:03 by rkaufman         ###   ########.fr       */
+/*   Updated: 2022/05/16 08:16:19 by rkaufman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ int	main(void)
 	new_horde = new_horde->zombieHorde(15, "Peter Pan");
 	for (int i = 0; i < 15; i++)
 	{
+		std::cout << "Nb. " << i << std::endl;
 		new_horde[i].announce();
 	}
 	delete [] new_horde;

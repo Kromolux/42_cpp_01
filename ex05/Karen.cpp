@@ -6,7 +6,7 @@
 /*   By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:50:34 by rkaufman          #+#    #+#             */
-/*   Updated: 2022/05/14 14:09:03 by rkaufman         ###   ########.fr       */
+/*   Updated: 2022/05/16 08:42:18 by rkaufman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	Karen::complain(std::string level)
 {
 	std::string const level_switch[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	void	(Karen::*f[4])(void) = {&Karen::debug, &Karen::info, &Karen::warning, &Karen::error};
-	
+
 	for (int i = 0; i < 4; i++)
 	{
 		if (level == level_switch[i])

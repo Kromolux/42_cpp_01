@@ -6,7 +6,7 @@
 /*   By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:51:20 by rkaufman          #+#    #+#             */
-/*   Updated: 2022/05/13 17:17:23 by rkaufman         ###   ########.fr       */
+/*   Updated: 2022/05/16 08:41:55 by rkaufman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ private:
 	void	info(void);
 	void	warning(void);
 	void	error(void);
+
 };
 
 #endif

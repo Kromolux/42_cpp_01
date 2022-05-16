@@ -6,7 +6,7 @@
 /*   By: rkaufman <rkaufman@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 11:52:06 by rkaufman          #+#    #+#             */
-/*   Updated: 2022/05/13 16:12:36 by rkaufman         ###   ########.fr       */
+/*   Updated: 2022/05/16 08:27:05 by rkaufman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,12 @@ public:
 
 	void		attack(void) const;
 	void		setWeapon(Weapon & weapon_type);
-	std::string	name;
-	Weapon		*weapon;
 	
 private:
 
+	std::string	_name;
+	Weapon		*_weapon;
+	
 };
 
 #endif
